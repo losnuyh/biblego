@@ -1,6 +1,9 @@
 package com.biblego;
 
 import com.facebook.react.ReactActivity;
+import com.sensormanager.SensorManagerPackage;
+import com.airbnb.android.react.maps.MapsPackage;
+import com.lwansbrough.RCTCamera.RCTCameraPackage;
 
 public class MainActivity extends ReactActivity {
 

@@ -8,7 +8,7 @@ import {
     BackAndroid
 } from 'react-native';
 
-import { TabNivigator } from 'react-navigation';
+import { TabNavigator } from 'react-navigation';
 
 import MainView from './components/main/mainview';
 import MapRender from './components/map/mapview';
