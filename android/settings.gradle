@@ -1,0 +1,3 @@
+rootProject.name = 'BibleGo'
+
+include ':app'
