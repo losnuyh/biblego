@@ -14,6 +14,7 @@ import MainView from './components/main/mainview';
 import MapRender from './components/map/mapview';
 import SettingView from './components/settings/settingview';
 
+
 BackAndroid.addEventListener('hardwareBackPress', function(){
     return true;
 });

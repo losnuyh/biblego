@@ -37,6 +37,12 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		A5E145B16D3B4F42AC33531E /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8230E57944245AEB201F5AD /* libRCTCamera.a */; };
 		0B8AAD57BB104C5398E9EFBF /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E57446C6FDF84B84A7D68D02 /* libAirMaps.a */; };
+		3FB823F898D84771A8A8224A /* libRealmReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC405AE42A784EC49D1D1569 /* libRealmReact.a */; };
+		DDB175C95CE140C9997EC0E9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C5864BCDF7479BB5B22FE7 /* libc++.tbd */; };
+		923D47EA62BB4D23A9AE73F8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA595759EFC49BB9A16D536 /* libz.tbd */; };
+		3FB4DDF798DE4D0B9F79CF55 /* libSQLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7454DE5D941A40EEBFE3802F /* libSQLite.a */; };
+		DB3E68F1D38941B2B9CC3E54 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF76DC3B15347E8ABC9659C /* libsqlite3.0.tbd */; };
+		CCCFABD79FAD42EB965B6247 /* libRNBackgroundTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1121B6858C74E31A2AAAF9A /* libRNBackgroundTimer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -260,6 +266,15 @@
 		B8230E57944245AEB201F5AD /* libRCTCamera.a */ = {isa = PBXFileReference; name = "libRCTCamera.a"; path = "libRCTCamera.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		5A38CE3BAAA7462481B3E3D2 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; name = "AirMaps.xcodeproj"; path = "../node_modules/react-native-maps/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		E57446C6FDF84B84A7D68D02 /* libAirMaps.a */ = {isa = PBXFileReference; name = "libAirMaps.a"; path = "libAirMaps.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		78D0CD49167148EEBBE1E7FD /* RealmReact.xcodeproj */ = {isa = PBXFileReference; name = "RealmReact.xcodeproj"; path = "../node_modules/realm/react-native/ios/RealmReact.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		BC405AE42A784EC49D1D1569 /* libRealmReact.a */ = {isa = PBXFileReference; name = "libRealmReact.a"; path = "libRealmReact.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		D0C5864BCDF7479BB5B22FE7 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		EAA595759EFC49BB9A16D536 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		A942E25682CD4B08B77C245B /* SQLite.xcodeproj */ = {isa = PBXFileReference; name = "SQLite.xcodeproj"; path = "../node_modules/react-native-sqlite-storage/src/ios/SQLite.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		7454DE5D941A40EEBFE3802F /* libSQLite.a */ = {isa = PBXFileReference; name = "libSQLite.a"; path = "libSQLite.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		AFF76DC3B15347E8ABC9659C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; name = "libsqlite3.0.tbd"; path = "usr/lib/libsqlite3.0.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		847963392D36472C8CC5B8E3 /* RNBackgroundTimer.xcodeproj */ = {isa = PBXFileReference; name = "RNBackgroundTimer.xcodeproj"; path = "../node_modules/react-native-background-timer/ios/RNBackgroundTimer.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		D1121B6858C74E31A2AAAF9A /* libRNBackgroundTimer.a */ = {isa = PBXFileReference; name = "libRNBackgroundTimer.a"; path = "libRNBackgroundTimer.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +303,12 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				A5E145B16D3B4F42AC33531E /* libRCTCamera.a in Frameworks */,
 				0B8AAD57BB104C5398E9EFBF /* libAirMaps.a in Frameworks */,
+				3FB823F898D84771A8A8224A /* libRealmReact.a in Frameworks */,
+				DDB175C95CE140C9997EC0E9 /* libc++.tbd in Frameworks */,
+				923D47EA62BB4D23A9AE73F8 /* libz.tbd in Frameworks */,
+				3FB4DDF798DE4D0B9F79CF55 /* libSQLite.a in Frameworks */,
+				DB3E68F1D38941B2B9CC3E54 /* libsqlite3.0.tbd in Frameworks */,
+				CCCFABD79FAD42EB965B6247 /* libRNBackgroundTimer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +477,9 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				15F013512ABF4C84B140ED1B /* RCTCamera.xcodeproj */,
 				5A38CE3BAAA7462481B3E3D2 /* AirMaps.xcodeproj */,
+				78D0CD49167148EEBBE1E7FD /* RealmReact.xcodeproj */,
+				A942E25682CD4B08B77C245B /* SQLite.xcodeproj */,
+				847963392D36472C8CC5B8E3 /* RNBackgroundTimer.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -476,6 +500,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* BibleGoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				E53E89A5A98E45C1B42EBEF2 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -490,6 +515,17 @@
 				2D02E4901E0B4A5D006451C7 /* BibleGo-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E53E89A5A98E45C1B42EBEF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C5864BCDF7479BB5B22FE7 /* libc++.tbd */,
+				EAA595759EFC49BB9A16D536 /* libz.tbd */,
+				AFF76DC3B15347E8ABC9659C /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -985,6 +1021,9 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1005,6 +1044,9 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibleGo.app/BibleGo";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1073,6 +1115,9 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1104,6 +1149,9 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Release;
@@ -1130,6 +1178,9 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1154,6 +1205,9 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
