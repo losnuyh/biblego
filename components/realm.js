@@ -41,7 +41,7 @@ Point.schema = {
 	latitude: 'float',
 	longitude: 'float'
     }
-}
+};
 
 class Markers extends Realm.Object{}
 Markers.schema = {

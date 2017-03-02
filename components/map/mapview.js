@@ -6,7 +6,8 @@ import {
     Dimensions,
     TouchableHighlight,
     Alert,
-    Button
+    Button,
+    BackAndroid
 } from 'react-native';
 
 import TimerMixin from 'react-timer-mixin';
@@ -18,12 +19,15 @@ import DropdownAlert from 'react-native-dropdownalert';
 
 import UserPositionImg from './img/position.png';
 import BibleImg from './img/bible.png';
+import Replay from './img/replay.png';
 
 import CamView from './cam.js';
 
 var Phrases = require('../phrases/phrases.json');
 
 import realm from '../realm.js';
+
+var GpsAlert = false;
 
 export default class MapRender extends Component {
     constructor(props){
@@ -41,7 +45,39 @@ export default class MapRender extends Component {
 	this._root.setNativeProps(nativeProps);
     }
 
+    _getcurrentPosition(){
+	navigator.geolocation.getCurrentPosition(
+	    (position) => {
+		this.setState({
+		    currentPosition:{
+			latitude: position.coords.latitude,
+			longitude: position.coords.longitude
+		    }
+		});
+		this._MarkersPoint(position.coords.latitude);
+		this.MakeMarker(position.coords.longitude);
+		this._watchPosition();
+		BackgroundTimer.setInterval(
+		    ()=>{
+			this._MarkersPoint();
+			this.MakeMarker(); 
+		    },
+		    180000
+		);
+	    },
+	    (error) => {
+		if(!GpsAlert){
+		    Alert.alert('GPS연결 실패', 'GPS를 연결한뒤 다시 실행해주세요.');
+		    GpsAlert=true;
+		}
+		this._getcurrentPosition();
+	    },
+	    {enableHighAccuracy:false, timeout:20000, maximumAge: 1000}
+	);
+    }
+
     componentWillMount(){
+	this.makeQuiz();
 	let answered = realm.objects('Answered');
 	let point = realm.objects('Point');
 	let markers = realm.objects('Markers');
@@ -60,45 +96,22 @@ export default class MapRender extends Component {
 		realm.delete(markers);
 	    });
 	}
-	navigator.geolocation.getCurrentPosition(
-	    (position) => {
-		this.setState({
-		    currentPosition:{
-			latitude: position.coords.latitude,
-			longitude: position.coords.longitude
-		    }
-		});
-		this._MarkersPoint(position.coords.latitude);
-		this.MakeMarker(position.coords.longitude);
-		const intervalId = BackgroundTimer.setInterval(
-		    ()=>{
-			this._MarkersPoint();
-			this.MakeMarker();
-		    },
-		   300000
-		);
-	    },
-	    (error) => {
-		Alert.alert('GPS연결 실패', 'GPS를 연결을 확인해주세요.');
-	    },
-	    {enableHighAccuracy:false, timeout:20000, maximumAge: 1000}
-	);
+	this._getcurrentPosition();
     }
 
     markercheck(latitude){
 	try{
 	    let a = realm.objects('Markers')[0].point[0].latitude.toFixed(5);
 	    let b = latitude.toFixed(5);
-	    return (a - b).toFixed(0);
+	    return (a - b).toFixed(2);
 	}
 	catch(err){
 	    return 1;
 	}
     }
 
-    componentDidMount(){
-	let highaccuracy = true;
-	this.watchPS = navigator.geolocation.watchPosition(
+    _watchPosition(){
+	navigator.geolocation.watchPosition(
 	    (position)=>{
 		this.setState({
 		    currentPosition: {
@@ -109,15 +122,14 @@ export default class MapRender extends Component {
 		if(this.markercheck(position.coords.latitude) != 0){
 		    this._MarkersPoint();
 		    this.MakeMarker(); 
-		} 
+		}
 	    },
 	    (error) => {
-		console.log(JSON.stringify(error));
-		highaccuracy = false;
+		this._watchPosition();
 	    },
-	    {enableHighAccuracy: highaccuracy, timeout:20000, distanceFilter: 3}
+	    {enableHighAccuracy: true, timeout:200, distanceFilter: 3}
 	);    
-    } 
+    }
 
     _check_range(target_latitude, target_longitude){
 	let x= Math.pow((target_latitude - this.state.currentPosition.latitude), 2);
@@ -130,7 +142,9 @@ export default class MapRender extends Component {
 	    realm.delete(realm.objects('Answered'));
 	    realm.delete(realm.objects('Point'));
 	    realm.delete(realm.objects('Markers'));
-	}); 
+	    realm.delete(realm.objects('Quiz'));
+	});
+	this.makeQuiz();
 	let point_array = [];
 	let key = 0;
 	for (let j=1; j<5 ; j++){
@@ -213,6 +227,47 @@ export default class MapRender extends Component {
 	this.setState({
 	    markers: result
 	});
+    }
+
+    makeQuiz(){
+	this.quiz = realm.objects('Quiz');
+	if (this.quiz.length < 1){
+	    let ind = this.picker_index();
+	    realm.write(()=>{
+		let results = [];
+		for (let i = 0; i < 16; i ++){
+		    let index = ind[i];
+		    let phrase = Phrases[index];
+		    let result = realm.create('Phrase', {
+			book: phrase.book,
+			chapter: phrase.chapter ? phrase.chapter.toString() : ' ',
+			verse: phrase.verse ? phrase.verse.toString() : ' ',
+			question1: phrase.question1,
+			question2: phrase.question2 ? phrase.question2 : ' ',
+			answer: phrase.answer
+		    });
+		    results.push(result);
+		}
+		if (realm.objects('Quiz').length<1){
+		    const test = realm.create('Quiz',{
+			quiz_index_list: results
+		    });
+		} else{
+		    realm.objects('Quiz')[0].quiz_index_list = results;
+		}
+	    });
+	}	
+    }
+
+    picker_index() {
+	let result = [];
+	while(result.length<16){
+	    let ind = Math.floor(Math.random() * Phrases.length);
+	    if(result.indexOf(ind)<0){
+		result.push(ind);
+	    }
+	}
+	return result;
     }
 
     static navigationOption = {

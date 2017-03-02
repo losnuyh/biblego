@@ -24,6 +24,7 @@ import realm from '../realm.js';
 
 const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
+const phraseLength = Phrases.length;
 
 export default class MainView extends Component{
     constructor(props){
@@ -46,20 +47,6 @@ export default class MainView extends Component{
 	};
     }
     
-    get_user_position(){
-	navigator.geolocation.getCurrentPosition(
-	    (position)=>{
-		console.log(JSON.stringify(position));
-	    },
-	    (error) => {},
-	    {enableHighAccuracy:true, timeout:2000, maximumAge: 1000}
-	);
-    }
-
-    componentWillMount(){
-	this.makeQuiz();
-    }
-
     componentDidMount(){
 	realm.addListener('change', ()=>{
 	    if(realm.objects('User').length > 0){
@@ -75,47 +62,7 @@ export default class MainView extends Component{
 		    });
 		}
 	    }
-	    this.makeQuiz();
 	});
-    }
-
-    makeQuiz(){
-	this.get_user_position();
-	this.quiz = realm.objects('Quiz');
-	if (this.quiz.length < 1){
-	    realm.write(()=>{
-		let results = [];
-		for (let i = 0; i < 16; i ++){
-		    let ind = this.picker_index();
-		    let phrase = Phrases[ind];
-		    let result = realm.create('Phrase', {
-			book: phrase.book,
-			chapter: phrase.chapter ? phrase.chapter.toString() : ' ',
-			verse: phrase.verse ? phrase.verse.toString() : ' ',
-			question1: phrase.question1,
-			question2: phrase.question2 ? phrase.question2 : ' ',
-			answer: phrase.answer
-		    });
-		    results.push(result);
-		}
-		if (realm.objects('Quiz').length<1){
-		    const test = realm.create('Quiz',{
-			quiz_index_list: results
-		    });
-		} else{
-		    realm.objects('Quiz')[0].quiz_index_list = results;
-		}
-	    });
-	}	
-    }
-
-    picker_index() {
-	let ind = Math.floor(Math.random() * Phrases.length);
-	return ind;
-    }
-
-    howtoplay(){
-	
     }
 
     static navigationOption = {

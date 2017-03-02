@@ -97,14 +97,18 @@ export default class Quiz extends Component{
 				  });
 
 				  realm.write(()=>{
-				      let answer = realm.create('Answered', {index: this.state.index});
-				      this.quiz.answered_list.push(answer);
+				      try{
+					  let answer = realm.create('Answered', {index: this.state.index});
+					  this.quiz.answered_list.push(answer);
+				      } catch(exception){
+
+				      }
 				      let user = realm.objects('User')[0];
 				      user.score = user.score + 1;
 				  });
 				  this.props.handler(0);
 			      }else{
-				  Alert.alert('오답!', '맞추셈');
+				  Alert.alert('오답!', '다시 생각해보세요!');
 			      }
 			  }}/>
 			  <Button
