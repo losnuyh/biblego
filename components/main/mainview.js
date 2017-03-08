@@ -12,6 +12,8 @@ import {
     TouchableHighlight
 } from 'react-native';
 
+import RNRestart from 'react-native-restart';
+
 import Dimensions from 'Dimensions';
 
 import TimerMixin from 'react-timer-mixin';
@@ -47,6 +49,12 @@ export default class MainView extends Component{
 	};
     }
     
+    componentWillMount(){
+	realm.write(()=>{
+	    realm.create('User', {name: '??'});
+	});
+    }
+
     componentDidMount(){
 	realm.addListener('change', ()=>{
 	    if(realm.objects('User').length > 0){
@@ -97,8 +105,8 @@ export default class MainView extends Component{
 		      style={styles.username}>
 		      {this.state.username!=null ? '내 이름은 ' : ''}{this.state.username}
 		    </Text>
-</View>
-{/** 점수 정보 */}
+		  </View>
+		  {/** 점수 정보 */}
 		  <View
 		    style={styles.score_container}>
 		    <Text
@@ -135,14 +143,14 @@ export default class MainView extends Component{
 	      <Modal
 		animationType={'slide'}
 		transparent={true}
-		visible={realm.objects('User').lenght > 0 || this.state.visible==false? false : true}
+		visible={realm.objects('User').lenght > 0 || this.state.visible==false ? false : true}
 		onRequestClose={()=>{}}>
 		<View
 		  style={styles.modal_container}>
 		<View
 		  style={styles.modal}>
 		  <Text>
-		    이름을 입력해주세요.{'\n'}
+		    이름을 입력해주세요.{'\n\n'}* GPS연결은 필수입니다. *
 		  </Text>
 		  <Text
 		    style={{fontWeight: 'bold'}}>
@@ -171,7 +179,6 @@ export default class MainView extends Component{
 				  Alert.alert('필수',"이름을 입력해주세요!");
 			      }
 			  });
-
 		      }}
 		      />
 		</View>

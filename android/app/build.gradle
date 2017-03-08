@@ -90,8 +90,8 @@ android {
         applicationId "com.biblego"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 4
-        versionName "1.0.3"
+        versionCode 6
+        versionName "1.1.1"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
@@ -135,6 +135,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-restart')
     compile project(':react-native-background-timer')
     compile project(':realm')
     compile project(':react-native-sensor-manager')

@@ -15,6 +15,7 @@
     "react-native-dropdownalert": "^2.5.0",
     "react-native-maps": "^0.12.4",
     "react-native-progress": "^3.2.0",
+    "react-native-restart": "0.0.2",
     "react-native-sensor-manager": "^0.1.10",
     "react-native-sqlite-storage": "^3.2.2",
     "react-native-swiper": "^1.5.4",

@@ -4,6 +4,7 @@ import android.app.Application;
 import android.util.Log;
 
 import com.facebook.react.ReactApplication;
+import com.avishayil.rnrestart.ReactNativeRestartPackage;
 import com.ocetnik.timer.BackgroundTimerPackage;
 import io.realm.react.RealmReactPackage;
 import com.sensormanager.SensorManagerPackage;
@@ -30,7 +31,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new BackgroundTimerPackage(),
+	  new ReactNativeRestartPackage(),
+	  new BackgroundTimerPackage(),
 	  new RealmReactPackage(),
 	  new SensorManagerPackage(),
 	  new MapsPackage(),

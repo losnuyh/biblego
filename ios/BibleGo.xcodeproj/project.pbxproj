@@ -43,6 +43,7 @@
 		3FB4DDF798DE4D0B9F79CF55 /* libSQLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7454DE5D941A40EEBFE3802F /* libSQLite.a */; };
 		DB3E68F1D38941B2B9CC3E54 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF76DC3B15347E8ABC9659C /* libsqlite3.0.tbd */; };
 		CCCFABD79FAD42EB965B6247 /* libRNBackgroundTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1121B6858C74E31A2AAAF9A /* libRNBackgroundTimer.a */; };
+		F9BC163EB1FB42A98D80E00A /* libRCTRestart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1515BE91C2E4452B45DDB7A /* libRCTRestart.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -275,6 +276,8 @@
 		AFF76DC3B15347E8ABC9659C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; name = "libsqlite3.0.tbd"; path = "usr/lib/libsqlite3.0.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		847963392D36472C8CC5B8E3 /* RNBackgroundTimer.xcodeproj */ = {isa = PBXFileReference; name = "RNBackgroundTimer.xcodeproj"; path = "../node_modules/react-native-background-timer/ios/RNBackgroundTimer.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		D1121B6858C74E31A2AAAF9A /* libRNBackgroundTimer.a */ = {isa = PBXFileReference; name = "libRNBackgroundTimer.a"; path = "libRNBackgroundTimer.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		BE86CE2E6D2B42D88CC871DD /* RCTRestart.xcodeproj */ = {isa = PBXFileReference; name = "RCTRestart.xcodeproj"; path = "../node_modules/react-native-restart/ios/RCTRestart.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		D1515BE91C2E4452B45DDB7A /* libRCTRestart.a */ = {isa = PBXFileReference; name = "libRCTRestart.a"; path = "libRCTRestart.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +312,7 @@
 				3FB4DDF798DE4D0B9F79CF55 /* libSQLite.a in Frameworks */,
 				DB3E68F1D38941B2B9CC3E54 /* libsqlite3.0.tbd in Frameworks */,
 				CCCFABD79FAD42EB965B6247 /* libRNBackgroundTimer.a in Frameworks */,
+				F9BC163EB1FB42A98D80E00A /* libRCTRestart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +484,7 @@
 				78D0CD49167148EEBBE1E7FD /* RealmReact.xcodeproj */,
 				A942E25682CD4B08B77C245B /* SQLite.xcodeproj */,
 				847963392D36472C8CC5B8E3 /* RNBackgroundTimer.xcodeproj */,
+				BE86CE2E6D2B42D88CC871DD /* RCTRestart.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1024,6 +1029,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1044,6 +1050,7 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibleGo.app/BibleGo";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1118,6 +1125,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1152,6 +1160,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Release;
@@ -1181,6 +1190,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1205,6 +1215,7 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",

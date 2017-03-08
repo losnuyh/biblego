@@ -34,8 +34,8 @@ export default class MapRender extends Component {
 	super(props);
 	this.state = {
 	    currentPosition:{
-		latitude: 1,
-		longitude: 1
+		latitude: 11,
+		longitude: 11
 	    }
 	};
 	this.marker_handler = this.MakeMarker.bind(this);
@@ -48,14 +48,15 @@ export default class MapRender extends Component {
     _getcurrentPosition(){
 	navigator.geolocation.getCurrentPosition(
 	    (position) => {
+		GpsAlert=false;
 		this.setState({
 		    currentPosition:{
 			latitude: position.coords.latitude,
 			longitude: position.coords.longitude
 		    }
 		});
-		this._MarkersPoint(position.coords.latitude);
-		this.MakeMarker(position.coords.longitude);
+		this._MarkersPoint();
+		this.MakeMarker();
 		this._watchPosition();
 		BackgroundTimer.setInterval(
 		    ()=>{
@@ -64,6 +65,12 @@ export default class MapRender extends Component {
 		    },
 		    180000
 		);
+		this.setState({
+		    currentPosition:{
+			latitude: position.coords.latitude,
+			longitude: position.coords.longitude
+		    }
+		});
 	    },
 	    (error) => {
 		if(!GpsAlert){
@@ -72,11 +79,11 @@ export default class MapRender extends Component {
 		}
 		this._getcurrentPosition();
 	    },
-	    {enableHighAccuracy:false, timeout:20000, maximumAge: 1000}
+	    {enableHighAccuracy:false, timeout:10000, maximumAge: 1000}
 	);
     }
 
-    componentWillMount(){
+    componentDidMount(){
 	this.makeQuiz();
 	let answered = realm.objects('Answered');
 	let point = realm.objects('Point');

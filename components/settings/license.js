@@ -21,6 +21,8 @@ export default class LicenseView extends Component{
 		style={{fontSize:16}}>
 		This application is Copyright Sol. All rights reserved{'\n'}
 		{'\n'}
+		Disigned by Anna
+		{'\n\n'}
 	      </Text>
 	      <Text>
 		This application use Open Source SoftWare.{'\n'}
