@@ -39,24 +39,9 @@ export default class Quiz extends Component{
 	this.setState({
 	    visible: !this.state.visible,
 	    index: index,
-	    phrase: this.quiz.quiz_index_list[index]
+	    phrase: this.quiz.quiz_index_list[index],
+	    size: (this.quiz.quiz_index_list[index].question1.length + this.quiz.quiz_index_list[index].question2.length)/100 < 0.4 ? 0.4 : (this.quiz.quiz_index_list[index].question1.length + this.quiz.quiz_index_list[index].question2.length)/100
 	});
-	this.front = this.state.phrase.question1.length;
-	this.back = this.state.phrase.question2.length;
-	this.pre_size = (this.front+this.back) / 100;
-	if (this.pre_size<0.3){
-	    this.setState({
-		size: 0.3
-	    });
-	} else if(this.pre_size>1){
-	    this.setState({
-		size: 1
-	    });
-	} else {
-	    this.setState({
-		size: this.pre_size
-	    });
-	}
     }
 
     render(){
@@ -74,9 +59,10 @@ export default class Quiz extends Component{
 		  style={
 		      [styles.contents_frame,
 		       {
-			   width: width * 4/5,
-			   height: height * this.state.size
-		       }]
+			   height: height * this.state.size,
+			   width: width * 4/5
+		       }
+		      ]
 		  }>
 		  <View
 		    style={styles.title_container}>
