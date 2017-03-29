@@ -124,6 +124,15 @@ export default class MainView extends Component{
 		      {this.state.score ? this.state.score : '...'}
 		    </Text>
 		  </View>
+		  <Text
+		    style={
+			{
+			    textAlign:'center'
+			}
+		    }>
+		    주의 말씀은 내 발에 등불이요, 내 길에 빛이니이다. {'\n'}
+		    Your word is a lamp to my feet and a light for my path.  
+		  </Text>
 		</View>
 	      </View>
 	      {/** 하단 View */}
