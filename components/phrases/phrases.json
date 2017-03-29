@@ -2,392 +2,1002 @@
     "book": "디모데후서",
     "chapter": 1,
     "verse": 7,
-    "question1": "하나님이 우리에게 주신 것은 두려워하는 마음이 아니요 오직 능력과 ",
-    "question2": "과 절제하는 마음이니(2글자)",
+    "question1": "하나님이 우리에게 \n주신 것은 두려워하는 \n마음이 아니요 \n오직 능력과 ",
+    "question2": "과 \n절제하는 마음이니\n(2글자)",
     "answer": "사랑"
 }, {
     "book": "욥기",
     "chapter": 22,
     "verse": 21,
-    "question1": "너는 하나님과 화목하고 평안하라, 그리하면",
-    "question2": "이 네게 임하리라.(1글자)",
+    "question1": "너는 하나님과 화목하고 \n평안하라, 그리하면\n",
+    "question2": "이 네게 임하리라.\n(1글자)",
     "answer": "복"
 }, {
     "book": "창세기",
     "chapter": 28,
     "verse": 15,
-    "question1": "내가 너와 함께 있어 네게 어디로 가든지 너를 지키며 너를 이끌어 이 땅으로 돌아오게 할지라. 내가 네게 허락한 것을 다",
-    "question2": "까지 너를 떠나지 아니하리라(3글자)",
+    "question1": "내가 너와 함께 있어 \n네게 어디로 가든지 \n 너를 지키며 너를 이끌어 \n이 땅으로 돌아오게 할지라. \n내가 네게 허락한 것을 다 ",
+    "question2": "까지 \n너를 떠나지 아니하리라\n(3글자)",
     "answer": "이루기"
 }, {
     "book": "시편",
     "chapter": 42,
     "verse": 11,
-    "question1": "내 영혼아, 네가 어찌하여 낙망하여 어찌하여 내 속에서 불안하여 하는고. 너는 하나님을 바라라 나는 내 ",
-    "question2": "을 도우시는 내 하나님을 오히려 찬송하리로다(2글자)",
+    "question1": "내 영혼아, \n네가 어찌하여 낙망하여 어찌하여 \n내 속에서 불안하여 하는고. \n너는 하나님을 바라라 \n나는 내 ",
+    "question2": "을 도우시는 \n내 하나님을 오히려 \n찬송하리로다\n(2글자)",
     "answer": "얼굴"
 }, {
     "book": "시편",
     "chapter": 55,
     "verse": 22,
-    "question1": "네 짐을 여호화꼐 맡겨 버리라. 너를 붙드시고 의인의 ",
-    "question2": "을 영영히 허락지 아니하시리로다(3글자)",
+    "question1": "네 짐을 여호화꼐 맡겨 버리라. \n너를 붙드시고 의인의 ",
+    "question2": "을 \n영영히 허락지 아니하시리로다\n(3글자)",
     "answer": "요동함"
 }, {
     "book": "시편",
     "chapter": 121,
     "verse": 2,
-    "question1": "내가 산을 향하여 눈을 들리라. 나의 도움이 어디서 올꼬, 나의 도움이 천지를 지으신 ",
-    "question2": "에게서로다 (3글자)",
+    "question1": "내가 산을 향하여 눈을 들리라. \n나의 도움이 어디서 올꼬, \n나의 도움이 천지를 지으신 \n",
+    "question2": "에게서로다 \n(3글자)",
     "answer": "여호와"
 }, {
     "book": "시편",
     "chapter": 126,
     "verse": 5,
-    "question1": "눈물을 흘리며 씨를 뿌리는 자는 ",
-    "question2": "으로 거두리로다(2글자)",
+    "question1": "눈물을 흘리며 씨를 뿌리는 자는 \n",
+    "question2": "으로 거두리로다\n(2글자)",
     "answer": "기쁨"
 }, {
     "book": "요한일서",
     "chapter": 2,
     "verse": 17,
-    "question1": "이 세상도, 그 정욕도 지나가되 오직 ",
-    "question2": "의 뜻을 행하는 이는 영원히 거하느니라(3글자)",
+    "question1": "이 세상도, \n그 정욕도 지나가되 \n오직 ",
+    "question2": "의 뜻을 행하는 이는 \n영원히 거하느니라\n(3글자)",
     "answer": "하나님"
 }, {
     "book": "퀴즈",
     "chapter": "",
     "verse": "",
-    "question1": "구약은 총 몇 권?",
-    "question2": "(2글자,숫자)",
+    "question1": "구약은 총 몇 권?\n",
+    "question2": "\n(2글자,숫자)",
     "answer": "39"
 }, {
     "book": "퀴즈",
     "chapter": "",
     "verse": "",
-    "question1": "신약은 총 몇 권",
-    "question2": "(2글자, 숫자)",
+    "question1": "신약은 총 몇 권\n",
+    "question2": "\n(2글자, 숫자)",
     "answer": "27"
 }, {
     "book": "마태복음",
     "chapter": 7,
     "verse": 21,
-    "question1": "나더러 주여 주여 하는 자마다 천국에 다 들어갈 것이 아니요 다만 하늘에 계신 내 ",
-    "question2": "의 뜻대로 행하는 자라야 들어가리라(3글자)",
+    "question1": "나더러 주여 주여 하는 자마다 \n천국에 다 들어갈 것이 아니요 \n다만 하늘에 계신 \n내 ",
+    "question2": "의 뜻대로 \n행하는 자라야 들어가리라\n(3글자)",
     "answer": "아버지"
 }, {
     "book": "히브리서",
     "chapter": 10,
     "verse": 36,
-    "question1": "너희에게 인내가 필요함은 너희가 ",
-    "question2": "의 뜻을 행한 후에 약속을 받기 위함이라(3글자)",
+    "question1": "너희에게 인내가 필요함은 \n너희가 ",
+    "question2": "의 뜻을 행한 후에 \n약속을 받기 위함이라\n(3글자)",
     "answer": "하나님"
 }, {
     "book": "로마서",
     "chapter": 8,
     "verse": 28,
-    "question1": "우리가 알거니와 하나님을 사랑하는 자 곧 그 뜻대로 부르심을 입은 자들에게는 모든 것이 ",
-    "question2": "하여 선을 이루느니라(2글자)",
+    "question1": "우리가 알거니와 하나님을 \n사랑하는 자 곧 그 뜻대로 \n부르심을 입은 자들에게는 \n모든 것이 ",
+    "question2": "하여 \n선을 이루느니라\n(2글자)",
     "answer": "합력"
 }, {
     "book": "요한복음",
     "chapter": 6,
     "verse": 40,
-    "question1": "내 아버지의 뜻은 아들을 보고 믿는 자마다 영생을 얻는 이것이니",
-    "question2": "날에 내가 이를 다시 살리리라 하시니라(3글자)",
+    "question1": "내 아버지의 뜻은 아들을 \n보고 믿는 자마다 영생을 \n얻는 이것이니\n",
+    "question2": "날에 내가 이를 다시 \n살리리라 하시니라\n(3글자)",
     "answer": "마지막"
 }, {
     "book": "잠언",
     "chapter": 1,
     "verse": 5,
-    "question1": "지혜있는 자는 듣고 학식이 더할 것이요. ",
-    "question2": "자는 모략을 얻을것이라(3글자)",
+    "question1": "지혜있는 자는 듣고 학식이 \n더할 것이요. \n",
+    "question2": "자는 모략을 얻을것이라\n(3글자)",
     "answer": "명철한"
 }, {
     "book": "잠언",
     "chapter": 24,
     "verse": 33,
-    "question1": "네가 좀더 자자, 좀더 졸자, 손을 모으고 좀더 눕자 하니 네 ",
-    "question2": "이 강도같이 오며, 네 곤핍이 군사 같이 이르리라(2글자)",
+    "question1": "네가 좀더 자자, 좀더 졸자, \n손을 모으고 좀더 눕자 하니 \n네 ",
+    "question2": "이 강도같이 오며, \n네 곤핍이 군사 같이 이르리라 \n(2글자)",
     "answer": "궁핍"
 }, {
     "book": "잠언",
     "chapter": 28,
     "verse": 2,
-    "question1": "나라는 죄가 있으면 주관자가 많아져도 명철과 지식이 있는 사람으로 말미암아",
-    "question2": "하게 되느니라(2글자)",
+    "question1": "나라는 죄가 있으면 주관자가 \n많아져도 명철과 지식이 있는 사람으로 \n말미암아\n",
+    "question2": "하게 되느니라\n(2글자)",
     "answer": "장구"
 }, {
     "book": "요한복음",
     "chapter": 20,
     "verse": 21,
-    "question1": "예수께서 또 가라사다 너희에게 평강이 있을찌어다 아버지께서 나를 보내신것 같이 나도",
-    "question2": "를 보내노라(2글자)",
+    "question1": "예수께서 또 가라사다 \n너희에게 평강이 있을찌어다 \n아버지께서 나를 보내신것 같이 \n나도 ",
+    "question2": "를 보내노라\n(2글자)",
     "answer": "너희"
 }, {
     "book": "넌센스",
     "chapter": "",
     "verse": "",
-    "question1": "인류 최초로 수술을 받은 사람은?(2글자)",
+    "question1": "인류 최초로 수술을 \n받은 사람은?\n(2글자)\n",
     "question2": "",
     "answer": "아담"
 }, {
     "book": "넌센스",
     "chapter": "",
     "verse": "",
-    "question1": "하나님이 노아에게 주신 개이름은?(3글자)",
+    "question1": "하나님이 \n노아에게 주신 개이름은?\n(3글자)\n",
     "question2": "",
     "answer": "무지개"
 }, {
     "book": "넌센스",
     "chapter": "",
     "verse": "",
-    "question1": "교회에 절대 없는 벌레는?",
+    "question1": "교회에 절대 없는 벌레는?\n(4글자)\n",
     "question2": "",
     "answer": "무당벌레"
 }, {
     "book": "퀴즈",
     "chapter": "",
     "verse": "",
-    "question1": "구약의 마지막 책 이름은?(3글자)",
+    "question1": "구약의 마지막 책 이름은?\n(3글자)\n",
     "question2": "",
     "answer": "말라기"
 }, {
     "book": "넌센스",
     "chapter": "",
     "verse": "",
-    "question1": "항상 모든 시험을 다 맞추는 성경속 여인은?(3글자)",
-    "question2": "힌트 : 모세의 가족",
+    "question1": "항상 모든 시험을 다 맞추는 \n성경속 여인은?\n(3글자)\n",
+    "question2": "\n힌트 : 모세의 가족",
     "answer": "미리암"
 }, {
     "book": "넌센스",
     "chapter": "",
     "verse": "",
-    "question1": "뼈를 깍는 고통을 최초로 느낀 사람은?(2글자)",
+    "question1": "뼈를 깍는 고통을 최초로 느낀 사람은?\n(2글자)\n",
     "question2": "",
     "answer": "아담"
 }, {
     "book": "요한1서",
     "chapter": 4,
     "verse": 21,
-    "question1": "우리가 이 계명을 주께 받았나니 하나님을 사랑하는 자는 또한 그",
-    "question2": "를 사랑할찌니라(2글자)",
+    "question1": "우리가 이 계명을 주께 받았나니 \n하나님을 사랑하는 자는 또한 \n그",
+    "question2": "를 사랑할찌니라\n(2글자)",
     "answer": "형제"
 }, {
     "book": "로마서",
     "chapter": 13,
     "verse": 8,
-    "question1": "피차 사랑의 빛 외에는 아무에게든지 아무 빚을 지지 말라 남을 사랑하는 자는",
-    "question2": "을 다 이루었느니라(2글자)",
+    "question1": "피차 사랑의 빛 외에는 \n아무에게든지 아무 빚을 지지 말라 \n남을 사랑하는 자는",
+    "question2": "을 \n다 이루었느니라\n(2글자)",
     "answer": "율법"
 }, {
     "book": "고린도전서",
     "chapter": 10,
     "verse": 31,
-    "question1": "그런즉, 너희가 먹든지 마시든지 무엇을 하든지 다 하나님의 ",
-    "question2": "을 위하여 하라(2글자)",
+    "question1": "그런즉, 너희가 먹든지 마시든지 \n무엇을 하든지 다 하나님의 \n",
+    "question2": "을 위하여 하라\n(2글자)",
     "answer": "영광"
 }, {
     "book": "빌립보서",
     "chapter": 4,
     "verse": 13,
-    "question1": "내게 능력 주시는 자 안에서 내가 ",
-    "question2": "것을 할 수 있느니라(2글자)",
+    "question1": "내게 능력 주시는 자 안에서 \n내가 ",
+    "question2": "것을 할 수 있느니라\n(2글자)",
     "answer": "모든"
 }, {
     "book": "요한복음",
     "chapter": 15,
     "verse": 7,
-    "question1": "너희가 내 안에 거하고 내 말이 너희 안에 거하면 무엇이든지 원하는대로 ",
-    "question2": "그리하면 이루리라(3글자)",
+    "question1": "너희가 내 안에 거하고 \n내 말이 너희 안에 거하면 \n무엇이든지 원하는대로 ",
+    "question2": "\n그리하면 이루리라\n(3글자)",
     "answer": "구하라"
 },{
     "book": "마태복음",
     "chapter": 2,
     "verse": 1,
-    "question1": "예수님이 탄생하신 장소는 어디입니까?",
-    "question2": "(4글자)",
+    "question1": "예수님이 탄생하신 장소는 어디입니까?\n",
+    "question2": "\n(4글자)",
     "answer": "베들레헴"
 },{
     "book": "마태복음",
     "chapter": 16,
     "verse": 16,
-    "question1": "[주는 그리스도시요, 살아계신 하나님의 아들이시나이다] 라는 신앙고백을 한 사람은 누구?",
-    "question2": "(3글자)",
+    "question1": "[주는 그리스도시요, 살아계신 하나님의 아들이시나이다] \n라는 신앙고백을 한 사람은 누구?\n",
+    "question2": "\n(3글자)",
     "answer": "베드로"
 },{
     "book": "마태복음",
     "chapter": 27,
     "verse": 2,
-    "question1": "유대인들에게서 예수를 넘겨받은 사람은 누구입니까?",
-    "question2": "(3글자)",
+    "question1": "유대인들에게서 \n예수를 넘겨받은 사람은 누구입니까?\n",
+    "question2": "\n(3글자)\n",
     "answer": "빌라도"
 },{
     "book": "창세기",
     "chapter": 5,
     "verse": 24,
-    "question1": "하나님과 동행하다가 하나님께서 데려간 사람은 누구입니까?",
-    "question2": "(2글자)",
+    "question1": "하나님과 동행하다가 \n하나님께서 데려간 \n사람은 누구입니까?\n",
+    "question2": "\n(2글자)",
     "answer": "에녹"
 },{
     "book": "창세기",
     "chapter": 5,
     "verse": 27,
-    "question1": "가장 오래 산 사람은 누구입니까?",
-    "question2": "(4글자)",
-    "answer": "므드셀라"
+    "question1": "가장 오래 산 사람은 \n누구입니까?\n",
+    "question2": "\n(4글자)",
+    "answer": "므두셀라"
 },{
     "book": "출애굽기",
     "chapter": 16,
     "verse": 14,
-    "question1": "광야에서 이스라엘 백성들이 양식으로 삼은 것은 무엇입니까?",
-    "question2": "(2글자)",
+    "question1": "광야에서 이스라엘 백성들이 양식으로 \n삼은 것은 무엇입니까?\n",
+    "question2": "\n(2글자)",
     "answer": "만나"
 },{
     "book": "요한복음",
     "chapter": 9,
     "verse": 7,
-    "question1": "보냄을 받았다 라는 연못의 이름은?",
-    "question2": "(3글자)",
+    "question1": "보냄을 받았다 라는 연못의 이름은?\n",
+    "question2": "\n(3글자)",
     "answer": "실로암"
 },{
     "book": "이사야",
     "chapter": 1,
     "verse": 1,
-    "question1": "이사야의 아버지는 누구입니까?",
-    "question2": "(3글자)",
+    "question1": "이사야의 아버지는 누구입니까?\n",
+    "question2": "\n(3글자)",
     "answer": "아모스"
 },{
     "book": "사무엘상",
     "chapter": 15,
     "verse": 22,
-    "question1": "순종이 무엇보다 낫다고 했습니까?",
-    "question2": "(2글자)",
+    "question1": "순종이 무엇보다 낫다고 했습니까?\n",
+    "question2": "\n(2글자)",
     "answer": "제사"
 },{
     "book": "사무엘상", 
     "chapter": 16,
     "verse": 7,
-    "question1": "사람은 외모를 보지만 하나님은 무엇을 보신다고 했습니까?",
-    "question2": "(2글자)",
+    "question1": "사람은 외모를 보지만 \n하나님은 무엇을 보신다고 했습니까?\n",
+    "question2": "\n(2글자)",
     "answer": "중심"
 },{
     "book": "누가복음",
     "chapter": 2,
     "verse": 39,
-    "question1": "예수님이 자라나신 곳은 어디입니까?",
-    "question2": "(3글자)",
+    "question1": "예수님이 자라나신 곳은 어디입니까?\n",
+    "question2": "\n(3글자)",
     "answer": "나사렛"
 },{
     "book": "요한복음",
     "chapter": 11,
     "verse": 26,
-    "question1": "나를 믿는 자는 죽어도 살겠고 무릇",
-    "question2": "나를 믿는 자는 영원히 죽지 아니하리니(3글자)",
+    "question1": "나를 믿는 자는 죽어도 살겠고 \n무릇",
+    "question2": "나를 믿는 자는 \n영원히 죽지 아니하리니\n(3글자)",
     "answer": "살아서"
 },{
     "book": "사무엘상",
     "chapter": 12,
     "verse": 20,
-    "question1": "너희룰 위하여 기도하기를 쉬는 죄를 범하지 않겠다고 한 사람은?",
-    "question2": "(3글자)",
+    "question1": "너희룰 위하여 기도하기를 \n쉬는 죄를 범하지 않겠다고 \n한 사람은?\n",
+    "question2": "\n(3글자)",
     "answer": "사무엘"
 },{
     "book": "사사기",
     "chapter": 3,
     "verse": 31,
-    "question1": "소 모는 막대기로 블래셋 사람 600명을 죽인 사사는 누구입니까?",
-    "question2": "(2글자)",
+    "question1": "소 모는 막대기로 블래셋 사람 \n600명을 죽인 사사는 누구입니까?\n",
+    "question2": "\n(2글자)",
     "answer": "삼손"
 },{
     "book": "로마서",
     "chapter": 12,
     "verse": 12,
-    "question1": "소망 중에 즐거워하며 환난 중에 참으며 ",
-    "question2": "에 항상 힘쓰며(2글자)",
+    "question1": "소망 중에 즐거워하며 \n환난 중에 참으며 \n",
+    "question2": "에 항상 힘쓰며\n(2글자)",
     "answer": "기도"
 },{
     "book": "시편",
     "chapter": 27,
     "verse": 14,
-    "question1": "너는 여호와를 바랄찌어다 강하고 담대하며 ",
-    "question2": "를 바랄찌어다.(3글자)",
+    "question1": "너는 여호와를 바랄찌어다 \n강하고 담대하며 ",
+    "question2": "를 바랄찌어다.\n(3글자)",
     "answer": "여호와"
 },{
     "book": "고린도전서",
     "chapter": 13,
     "verse": 4,
-    "question1": "사랑은 오래 참고 사랑은 온유하며 투기하는 자가 되지 아니하며 사랑은 ",
-    "question2": "하지 아니하며 교만하지 아니하며(2글자)",
+    "question1": "사랑은 오래 참고 사랑은 온유하며 \n투기하는 자가 되지 아니하며 \n사랑은 ",
+    "question2": "하지 아니하며 \n교만하지 아니하며\n(2글자)",
     "answer": "자랑"
 },{
     "book": "시편",
     "chapter": 139,
     "verse": 13,
-    "question1": "주께서 내 장부를 지으시며 나의 모태에서 나를 ",
-    "question2": "하셨나이다.(2글자)",
+    "question1": "주께서 내 장부를 지으시며 \n나의 모태에서 나를 ",
+    "question2": "하셨나이다.\n(2글자)",
     "answer": "조직"
 },{
     "book": "골로새서",
     "chapter": 3,
     "verse": 12,
-    "question1": "그러므로 너희는 하나님의 택하신 거룩하고 사랑하신자처럼 ",
-    "question2": "과 자비와 겸손과 온유와 오래 참음을 옷입고(2글자)",
+    "question1": "그러므로 너희는 하나님의 택하신 \n거룩하고 사랑하신자처럼 \n",
+    "question2": "과 자비와 겸손과 \n온유와 오래 참음을 옷입고\n(2글자)",
     "answer": "긍휼"
 },{
     "book": "잠언",
     "chapter": 19,
     "verse": 20,
-    "question1": "너는 권고를 들으며 훈계를 받으라 그리하면 네가 필경은 ",
-    "question2": "롭게 되리라(2글자)",
+    "question1": "너는 권고를 들으며 \n훈계를 받으라 그리하면 \n네가 필경은 ",
+    "question2": "롭게 되리라\n(2글자)",
     "answer": "지혜"
 },{
     "book": "시편",
     "chapter": 91,
     "verse": 2,
-    "question1": "내가 여호와를 가리켜 말하기를 저는 나의 피난처요 나의 ",
-    "question2": "요 나의 의뢰하는 하나님이라 하리니(2글자)",
+    "question1": "내가 여호와를 가리켜 말하기를 \n저는 나의 피난처요 나의 ",
+    "question2": "요 \n나의 의뢰하는 하나님이라 하리니\n(2글자)",
     "answer": "요새"
 },{
     "book": "히브리서",
     "chapter": 10,
     "verse": 36,
-    "question1": "너희에게 인내가 필요함은 너희가 하나님의 뜻을 행한 후에 ",
-    "question2": "을 받기 위함이라(2글자)",
+    "question1": "너희에게 인내가 필요함은 \n너희가 하나님의 뜻을 행한 후에 \n",
+    "question2": "을 받기 위함이라\n(2글자)",
     "answer": "약속"
 },{
     "book": "시편",
     "chapter": 23,
     "verse": 1,
-    "question1": "여호와는 나의 목자시니 내가 ",
-    "question2": "이 없으리로다.(3글자)",
+    "question1": "여호와는 나의 목자시니 \n내가 ",
+    "question2": "이 없으리로다.\n(3글자)",
     "answer": "부족함"
 },{
     "book": "잠언",
     "chapter": 3,
     "verse": 11,
-    "question1": "내 아들아 여호와의 징계를 경희 여기지 말라 그 ",
-    "question2": "을 싫어하지 말라(3글자)",
+    "question1": "내 아들아 여호와의 징계를 \n경희 여기지 말라 \n그 ",
+    "question2": "을 싫어하지 말라\n(3글자)",
     "answer": "꾸지람"
 },{
     "book": "잠언",
     "chapter": 18,
     "verse": 22,
-    "question1": "아내를 얻는 자는 복을 얻고 여호와께 ",
-    "question2": "을 받는 자니라(2글자)",
+    "question1": "아내를 얻는 자는 복을 얻고 \n여호와께 ",
+    "question2": "을 받는 자니라\n(2글자)",
     "answer": "은총"
 },{
     "book": "잠언",
     "chapter": 18,
     "verse": 21,
-    "question1": "죽고 사는 것이 혀의 권세에 달렸나니 혀를 쓰기 좋아하는 자는 그 ",
-    "question2": "를 먹으리라(2글자)",
+    "question1": "죽고 사는 것이 혀의 권세에 \n달렸나니 혀를 쓰기 좋아하는 자는 \n그 ",
+    "question2": "를 먹으리라\n(2글자)",
     "answer": "열매"
 },{
     "book": "요한복음",
     "chapter": 15,
     "verse": 13,
-    "question1": "사람이 친구를 위하여 자기 목숨을 버리면 이에서 더 큰 ",
-    "question2": "이 없나니(2글자)",
+    "question1": "사람이 친구를 위하여 자기 목숨을 \n버리면 이에서 더 큰 ",
+    "question2": "이 없나니\n(2글자)",
     "answer": "사랑"
+},{
+    "book": "요한일서",
+    "chapter": 1,
+    "verse": 7,
+    "question1": "저가 빛 가운데 계신것 같이 \n우리도 빛 가운데 행하면 \n우리가 서로 사귐이 있고 \n그 아들",
+    "question2": "의 피가 \n우리를 모든 죄에서 깨끗하게 \n하실 것이요",
+    "answer": "예수"
+},{
+    "book": "요한복음",
+    "chapter": 16,
+    "verse": 33,
+    "question1": "이것을 너희에게 이름은 너희로 \n내 안에서 평안을 누리게 하려함이라 \n세상에서는 너희가",
+    "question2": "을 당하나 \n담대하라 내가 세상을 이기었노라 하시니라\n",
+    "answer": "환난"
+},{
+    "book": "시편",
+    "chapter": 116,
+    "verse": 2,
+    "question1":"그 귀를 내게 기울이셨으므로 \n내가 ",
+    "question2": "하리로다\n",
+    "answer": "기도"
+},{
+    "book": "시편",
+    "chapter": 116,
+    "verse": 1,
+    "question1": "여호와께서 내 음성과 \n내 ",
+    "question2": "를 들으시므로 내가 \n저를 사랑하는도다.",
+    "answer": "기도"
+},{
+    "book": "요한복음",
+    "chapter":  6,
+    "verse": 35,
+    "question1": "예수께서 가라사대 내가 \n곧 생명의 떡이니 내게 오는 자는 \n결코 주리지 아니할 터이요 \n나를 믿는 자는 ",
+    "question2": "목마르지 \n아니하리라",
+    "answer":"영원히"
+},{
+    "book": "시편",
+    "chapter": 59,
+    "verse": 16,
+    "question1": "나는 주의 힘을 노래하며 \n아침에 주의 인자하심을 \n높이 부르오리니 주는 \n나의 ",
+    "question2": "이시며 \n나의 환난 날에 \n피난처이심이니이다.",
+    "answer": "산성"
+},{
+    "book": "갈라디아서",
+    "chapter": 5,
+    "verse": 1,
+    "question1": "그리스도께서 우리로 자유케 \n하려고 자유를 주셨으니 \n그러므로 ",
+    "question2": " 서서 다시는 \n종의 멍에를 메지 말라",
+    "answer": "굳세게"
+},{
+    "book": "요한복음",
+    "chapter": 3,
+    "verse": 36,
+    "question1": "아들을 믿는 자는 영생이 있고 \n아들을 순종치 아니하는 자는 \n영생을 보지 못하고 도리어 \n하나님의 ",
+    "question2": "가 그 위에 \n머물러 있느니라",
+    "answer": "진노"
+},{
+    "book": "갈라디아서",
+    "chapter": 6,
+    "verse": 10,
+    "question1": "그러므로 우리는 \n기회 있는대로 모든 이에게 \n착한 일을 하되 더욱 \n",
+    "question2": "의 가정들에게 할찌니라",
+    "answer": "믿음"
+},{
+    "book": "사도행전",
+    "chapter": 4,
+    "verse": 12,
+    "question1": "다른이로서는 구원을 \n얻을 수 없나니 천하 인간에 \n구원을 얻을만한 다른 ",
+    "question2": "을 \n우리에게 주신 일이 없음이니라 \n하였더라",
+    "answer": "이름"
+},{
+    "book": "마태복음",
+    "chapter": 6,
+    "verse": 34,
+    "question1": "그러므로 내일 일을 위하여 \n염려하지 말라 내일 일은 ",
+    "question2": "\n염려할 것이요 한 날 괴로움은 \n그 날에 족하니라",
+    "answer": "내일"
+},{
+    "book": "잠언",
+    "chapter": 27,
+    "verse": 5,
+    "question1": "면책은 숨은 ",
+    "question2": "보다 나으니라",
+    "answer": "사랑"
+},{
+    "book": "잠언",
+    "chapter": 27,
+    "verse": 6,
+    "question1": "친구의 통책은 충성에서 \n말미암은 것이나 \n",
+    "question2": "의 자주 입맞춤은 \n거짓에서 난 것이니라",
+    "answer": "원수"
+},{
+    "book": "잠언",
+    "chapter": 12,
+    "verse": 15,
+    "question1": "미련한 자는 자기 행위를 \n바른줄로 여기나 지혜로운 자는\n ",
+    "question2": "를 듣느니라",
+    "answer": "권고"
+},{
+    "book": "시편",
+    "chapter": 18,
+    "verse": 30,
+    "question1": "하나님의 도는 완전하고 \n여호와의 말씀은 정미하니 \n저는 자기에게 피하는 모든 자의\n",
+    "question2": "시로다.",
+    "answer": "방패"
+},{
+    "book": "요한복음",
+    "chapter": 7,
+    "verse": 38,
+    "question1": "나를 믿는 자는 성경에서 \n이름과 같이 그 배에서 \n",
+    "question2": "의 강이 흘러나리라 하시니",
+    "answer": "생수"
+},{
+    "book": "시편",
+    "chapter": 73,
+    "verse": 26,
+    "question1": "내 육체와 마음은 쇠잔하나 \n하나님은 내 마음의 ",
+    "question2": "이시요. \n영원한 분깃이시라.",
+    "answer": "반석"
+},{
+    "book": "야고보서",
+    "chapter": 3,
+    "verse": 16,
+    "question1": "시기와 다툼이 있는 곳에는 \n",
+    "question2": "과 모든 악한 일이 \n있음이니라.",
+    "answer": "요란"
+},{
+    "book": "에베소서",
+    "chapter": 6,
+    "verse": 10,
+    "question1": "종말로 너희가 주 안에서와 \n그 힘의 ",
+    "question2": "으로 \n강건하여지고",
+    "answer": "능력"
+},{
+    "book": "요한일서",
+    "chapter": 4,
+    "verse": 15,
+    "question1": "누구든지 예수를 하나님의 아들이라 \n시인하면",
+    "question2": "이 저 안에 거하시고 \n저도 하나님 안에 거하느니라",
+    "answer": "하나님"
+},{
+    "book": "시편",
+    "chapter": 16,
+    "verse": 8,
+    "question1": "내가 여호와를 항상 내 앞에 \n모심이여 그가 내 우편에 계시므로 \n내가 ",
+    "question2": "아니하리로다.",
+    "answer": "요동치"
+},{
+    "book": "시편",
+    "chapter": 34,
+    "verse": 8,
+    "question1": "너희는 여호와의 선하심을 맛보아 \n알찌어다 그에게 피하는 자는\n",
+    "question2": "이 있도다",
+    "answer": "복"
+},{
+    "book": "이사야",
+    "chapter": 26,
+    "verse": 4,
+    "question1": "너희는 여호와를 \n영원히 의뢰하라 주 여호와는 \n영원한 ",
+    "question2": "이심이로다",
+    "answer": "반석"
+},{
+    "book": "잠언",
+    "chapter": 15,
+    "verse": 29,
+    "question1": "여호와는 악인을 멀리 하시고 \n의인의 ",
+    "question2": "를 들으시느니라",
+    "answer": "기도"
+},{
+    "book": "데살로니가후서",
+    "chapter": 3,
+    "verse": 5,
+    "question1": "주께서 너희 마음을 인도하여 \n하나님의 사랑과",
+    "question2": "의 인내에 \n들어가게 하시기를 원하노라",
+    "answer": "그리스도"
+},{
+    "book": "시편",
+    "chapter": 119,
+    "verse": 7,
+    "question1": "내가 주의 의로운 판단을 배울 떄에는 \n정직한 ",
+    "question2": "으로 주께 감사하리이다.",
+    "answer": "마음"
+},{
+    "book": "마태복음",
+    "chapter": 24,
+    "verse": 35,
+    "question1": "천지는 없어지겠으나 \n내 ",
+    "question2": "은 없어지지 아니하리라",
+    "answer": "말"
+},{
+    "book": "요한복음",
+    "chapter": 14,
+    "verse": 23,
+    "question1": "예수께서 대답하여 가라사대 \n사람이 나를 사랑하면 내 말을 지키리니 \n내 아버지께서 저를 사랑하실 것이요.\n ",
+    "question2": "가 저에게 와서 거처를 \n저와 함께 하리라",
+    "answer": "우리"
+},{
+    "book": "로마서",
+    "chapter": 12,
+    "verse": 12,
+    "question1": "소망 중에 즐거워하며 \n환난 중에 참으며 ",
+    "question2":"에 항상 \n힘쓰며",
+    "answer":"기도"
+},{
+    "book": "고린도전서",
+    "chapter": 1,
+    "verse": 10,
+    "question1": "형제들아 내가 우리 주 예수 그리스도의 \n이름으로 너희에게 권하노니 \n다 같은 말을 하고 \n너희 가운데 ",
+    "question2": "이 없이 \n같은 마음과 같은 뜻으로 \n온전히 합하라",
+    "answer": "분쟁"
+},{
+    "book": "시편",
+    "chapter": 27,
+    "verse": 14,
+    "question1": "너희 여호와를 바랄찌어다 \n강하고 담대하며 ",
+    "question2": "를 바랄찌어다.",
+    "answer": "여호와"
+},{
+    "book": "시편",
+    "chapter": 139,
+    "verse": 13,
+    "question1": "주께서 내 장부를 지으시며 \n나의 모태에서 \n나를 ",
+    "question2": "하셨나이다.",
+    "answer": "조직"
+},{
+    "book": "시편",
+    "chapter": 139,
+    "verse": 14,
+    "question1": "내가 주께 감사하옴은 나를 지으심이 신묘막측하심이라 주의 ",
+    "question2": "가 기이함을 내 영혼이 잘 아나이다.",
+    "answer": "행사"
+},{
+    "book": "골로새서",
+    "chapter": 3,
+    "verse": 12,
+    "question1": "그러므로 너희는 하나님의 택하신 \n거룩하고 사랑하신 자처럼 긍휼과\n ",
+    "question2": "와 겸손과 온유와 오래 참음을 옷입고",
+    "answer": "자비"
+},{
+    "book": "잠언",
+    "chapter": 19,
+    "verse": 21,
+    "question1": "사람의 마음에는 많은 계획이 있어도 오직 ",
+    "question2": "의 뜻이 완전히 서리라",
+    "answer": "여호와"
+},{
+    "book": "고린도후서",
+    "chapter": 5,
+    "verse": 17,
+    "question1": "그런즉 누구든지 그리스도 안에 \n있으면 새로운 ",
+    "question2": "이라 \n이전 것은 지나갔으니 \n보라 새것이 되었도다.",
+    "answer": "피조물"
+},{
+    "book": "히브리서",
+    "chapter": 4,
+    "verse": 16,
+    "question1": "그러므로 우리가 긍휼하심을 받고 \n때를 따라 돕는 은혜를 얻기 위하여 \n은혜의 ",
+    "question2": " 앞에 담대히 나아갈 \n것이니라",
+    "answer":"보좌"
+},{
+    "book": "이사야",
+    "chapter": 40,
+    "verse": 31,
+    "question1": "오직 여호와를 앙망하는 자는 \n새 힘을 얻으리니 독수리의 날개치며 \n올라감 같을 것이요 \n달음박질하여도 ",
+    "question2": "아니하겠고 \n걸어가도 피곤치 아니하리로다",
+    "answer": "곤비치"
+},{
+    "book": "마태복음",
+    "chapter": 28,
+    "verse": 19,
+    "question1": "그러므로 너희는 가서 \n모든 족속으로 제자를 삼아 \n아버지와 ",
+    "question2": "과 성령의 이름으로 \n세례를 주고",
+    "answer": "아들"
+},{
+    "book": "누가복음",
+    "chapter": 2,
+    "verse": 20,
+    "question1": "목자가 자기들에게 이르던 바와 \n같이 듣고 본 그 모든 것을 인하여\n",
+    "question2": "께 영광을 돌리고 찬송하며 \n돌아가니라",
+    "answer": "하나님"
+},{
+    "book": "이사야",
+    "chapter": 9,
+    "verse": 6,
+    "question1": "이는 한 아기가 우리에게 났고 \n한 아들을 우리에게 주신바 되었는데 \n그 어깨에는 정사를  메었고 \n그 이름은 ",
+    "question2": "라, 모사라, 전능하신 하나님이라, \n영존하시는 아버지라",
+    "answer": "기묘자"
+},{
+    "book": "누가복음",
+    "chapter": 2,
+    "verse": 13,
+    "question1": "홀연히 허다한 천군이 그 천사와 \n함께 있어",
+    "question2": "을 찬송하여 \n가로되",
+    "answer": "하나님"
+},{
+    "book": "누가복음",
+    "chapter": 2,
+    "verse": 14,
+    "question1": "지극히 높은 곳에서는 하나님께 \n영광이요 땅에서는 기뻐하심을 입은 \n사람들 중에",
+    "question2": "로다 하니라",
+    "answer": "평화"
+},{
+    "book":"마태복음",
+    "chapter": 1,
+    "verse": 21,
+    "question1": "아들을 낳으리니 이름을 예수라 하라 이는 그가 자기 백성을 저희 ",
+    "question2": "에서 구원할 자이심이라 하니라",
+    "answer": "죄"
+},{
+    "book": "요한복음",
+    "chapter": 3,
+    "verse": 17,
+    "question1": "하나님이 그 아들을 세상에 \n보내신 것은 세상을 심판하려 \n하심이 아니요 저로 말미암아 \n세상이 ",
+    "question2": "을 받게 하려 \n하심이라",
+    "answer":"구원"
+},{
+    "book": "이사야",
+    "chapter": 7,
+    "verse": 14,
+    "question1": "보라 처녀가 잉태하여 아들을 \n낳을 것이요 그 이름을\n ",
+    "question2": "이라 하리라",
+    "answer": "임마누엘"
+},{
+    "book": "잠언",
+    "chapter": 21,
+    "verse": 3,
+    "question1": "의와 공평을 행하는 것은 \n제사 드리는 것보다 \n여호와께서 ",
+    "question2": "여기시느니라",
+    "answer": "기쁘게"
+},{
+    "book": "시편",
+    "chapter": 119,
+    "verse": 10,
+    "question1": "내가 전심으로 주를 찾았사오니 \n주의 ",
+    "question2": "에서 떠나지 말게 하소서",
+    "answer": "계명"
+},{
+    "book": "고린도전서",
+    "chapter": 13,
+    "verse": 6,
+    "question1": "불의를 기뻐하지 아니하며\n",
+    "question2": "와 함께 기뻐하고",
+    "answer": "진리"
+},{
+    "book": "고린도전서",
+    "chapter": 13,
+    "verse": 7,
+    "question1": "모든것을 참으며 모든 것을 믿으며 \n모든 것을 바라며 모든 것을\n",
+    "question2": "느니라",
+    "answer": "견디"
+},{
+    "book": "야고보서",
+    "chapter": 3,
+    "verse": 9,
+    "question1": "이것으로 우리가 주 아버지를 찬송하고 \n또 이것으로 하나님의 \n",
+    "question2": " 지음을 받은 사람을 \n저주하나니",
+    "answer": "형상대로"
+},{
+    "book": "야고보서",
+    "chapter": 3,
+    "verse": 10,
+    "question1": "한 입으로는 찬송과 저주가 나는도다 \n내형제들아 이것이 ",
+    "question2": "아니하니라",
+    "answer": "마땅치"
+},{
+    "book": "요한일서",
+    "chapter": 5,
+    "verse": 14,
+    "question1": "그를 향하여 우리가 가진바 \n담대한 것이 이것이니 \n그의 ",
+    "question2": "무엇을 구하면 들으심이라",
+    "answer": "뜻대로"
+},{
+    "book": "요한일서",
+    "chapter": 5,
+    "verse": 15,
+    "question1": "우리가 무엇이든지 구하는 바를 \n들으시는 줄을 안즉 우리가 \n그에게 ",
+    "question2": " 그것을 얻은 줄을 \n또한 아느니라",
+    "answer": "구한"
+},{
+    "book": "히브리서",
+    "chapter": 11,
+    "verse": 1,
+    "question1": "믿음은 바라는 것들의 ",
+    "question2": "이요 보지 못하는 것들의 증거니",
+    "answer": "실상"
+},{
+    "book": "요한복음",
+    "chapter": 1,
+    "verse": 8,
+    "question1": "그는 이 빛이 아니요 \n이 빛에 대하여 \n",
+    "question2": "하러 온 자라",
+    "answer": "증거"
+},{
+    "book": "요한복음",
+    "chapter": 1,
+    "verse": 14,
+    "question1": "말씀이 육신이 되어 우리 가운데 \n거하시매 우리가 그 영광을 보니 \n아버지의",
+    "question2": "의 영광이요 \n은혜와 진리가 충만하더라",
+    "answer": "독생자"
+},{
+    "book": "야고보서",
+    "chapter": 1,
+    "verse": 2,
+    "question1": "내 형제들아 너희가 여러가지 ",
+    "question2": "을 \n만나거든 온전히 기쁘게 여기라",
+    "answer": "시험"
+},{
+    "book": "야고보서",
+    "chapter": 1,
+    "verse": 3,
+    "question1": "이는 너희 믿음의 시련이 ",
+    "question2": "를 \n만들어 내는줄 너희가 앎이라",
+    "answer": "인내"
+},{
+    "book": "전도서",
+    "chapter": 11,
+    "verse": 5,
+    "question1": "바람의 길이 어떠함과 아이 밴 자의 \n태에서 뼈가 어떻게 자라는 것을 \n네가 알지 못함 같이",
+    "question2": "를 \n성취하시는 하나님의 일을 \n네가 알지 못하느니라",
+    "answer": "만사"
+},{
+    "book": "시편",
+    "chapter": 37,
+    "verse": 4,
+    "question1": "또 여호와를 기뻐하라 저가 \n네 마음의 ",
+    "question2": "을 이루어 \n주시리로다",
+    "answer": "소원"
+},{
+    "book": "잠언",
+    "chapter": 13,
+    "verse": 20,
+    "question1": "지혜로운 자와 동행하면 지혜를 얻고\n ",
+    "question2": " 자와 사귀면 해를 \n받느니라",
+    "answer": "미련한"
+},{
+    "book": "에베소서",
+    "chapter": 2,
+    "verse": 8,
+    "question1": "너희가 그 은혜를 인하여 믿음으로 \n말미암아 구원을 얻었나니 이것이 \n너희에게서 난 것이 아니요\n ",
+    "question2": "의 선물이라",
+    "answer": "하나님"
+},{
+    "book": " 시편",
+    "chapter": 119,
+    "verse": 9,
+    "question1": "청년이 무엇으로 그 행실을 깨끗케 하리이까 주의 ",
+    "question2": "을 따라 삼갈 것이니이다.",
+    "answer": "말씀"
+},{
+    "book": "베드로전서",
+    "chapter": 5,
+    "verse": 7,
+    "question1": "너희 염려를 다 주께 맡겨 버리라 \n이는 저가 너희를 ",
+    "question2": "하심이니라",
+    "answer": "권고"
+},{
+    "book": "골로새서",
+    "chapter": 2,
+    "verse": 7,
+    "question1": "그 안에 뿌리를 박으며 세움을 입어 \n교훈을 받은대로 ",
+    "question2": "에 굳게 서서 \n감사함을 넘치게 하라",
+    "answer": "믿음"
+},{
+    "book": "전도서",
+    "chapter": 12,
+    "verse": 13,
+    "question1": "일의 결국을 다 들었으니 하나님을 경외하고 \n그 ",
+    "question2": "을 지킬지어다 \n이것이 사람의 본분이니라",
+    "answer": "명령"
+},{
+    "book": "시편",
+    "chapter": 119,
+    "verse": 11,
+    "question1": "내가 주께 범죄치 아니하려 하여 \n주의 말씀을 내 ",
+    "question2": "에 \n두었나이다",
+    "answer": "마음"
+},{
+    "book": "역대상",
+    "chapter": 29,
+    "verse": 13,
+    "question1": "우리 하나님이여 이제 \n우리가 주께 감사하오며 \n주의 ",
+    "question2": " 이름을 찬양하나이다.",
+    "answer":"영화로운"
+},{
+    "book": "고린도전서",
+    "chapter": 15,
+    "verse": 57,
+    "question1": "우리 주 예수 그리스도로 말미암아 \n우리에게 ",
+    "question2": "을 주시는 \n하나님께 감사하노니",
+    "answer": "이김"
+},{
+    "book": "고린도후서",
+    "chapter": 9,
+    "verse": 15,
+    "question1": "말할 수 없는 그의 은사를 인하여 \n하나님께 ",
+    "question2": "하노라",
+    "answer": "감사"
+},{
+    "book": "시편",
+    "chapter": 3,
+    "verse": 3,
+    "question1": "여호와여 주는 나의 방패시요 \n나의 영광이시요 나의 ",
+    "question2": "를 \n드시는 자니이다",
+    "answer": "머리"
+},{
+    "book": "시편",
+    "chapter": 9,
+    "verse": 1,
+    "question1": "내가 전심으로 여호와께서 감사하오며 \n주의 모든 ",
+    "question2": "를 전하리이다.",
+    "answer": "기사"
+},{
+    "book": "에베소서",
+    "chapter": 3,
+    "verse": 20,
+    "question1": "우리 가운데서 역사하시는 능력대로 \n우리의 온갖 구하는 것이나 \n생각하는 것에 더 ",
+    "question2": "\n능히 하실 이에게",
+    "answer": "넘치도록"
+},{
+    "book": "유다서",
+    "chapter": 1,
+    "verse": 20,
+    "question1": "사랑하는 자들아 너희는 너희의 지극히 \n거룩한 믿음 위에 자기를 ",
+    "question2": "하며 \n성령으로 기도하며",
+    "answer": "건축"
+},{
+    "book": "유다서",
+    "chapter": 1,
+    "verse": 21,
+    "question1": "하나님의 사랑 안에서 자기를 지키며 \n영생에 이르도록 우리 주 예수 \n그리스도의",
+    "question2": "을 기다리라",
+    "answer": "긍휼"
+},{
+    "book": "예레미야",
+    "chapter": 29,
+    "verse": 11,
+    "question1": "나 여호와가 말하노라 너희를 향한 나의 생각은 내가 아나니 재앙이 아니라 곧 ",
+    "question2": "이요 너희 장래에 소망을 주려하는 생각이라",
+    "answer": "평안"
+},{
+    "book": "야고보서",
+    "chapter": 1,
+    "verse": 14,
+    "question1": "오직 각 사람이 시험을 받는 것은 \n자기 ",
+    "question2": "에 끌려 미혹됨이니",
+    "answer": "욕심"
+},{
+    "book": "베드로전서",
+    "chapter": 2,
+    "verse": 15,
+    "question1": "곧 선행으로 어리석은 사람의 \n무식한 ",
+    "question2": "을 막으시는 \n것이라",
+    "answer": "말"
+},{
+    "book": "베드로전서",
+    "chapter": 2,
+    "verse": 16,
+    "question1": "자유하나 그 자유로 악을 가리우는 데 쓰지 말고 오직 ",
+    "question2": "의 종과 같이 하라",
+    "answer": "하나님"
+},{
+    "book": "잠언",
+    "chapter": 9,
+    "verse": 10,
+    "question1": "여호와를 경외하는 것이 \n지혜의 ",
+    "question2": "이요",
+    "answer": "근본"
+},{
+    "book": "잠언",
+    "chapter": 9,
+    "verse": 10,
+    "question1": "거룩하신 자를 아는 것이 ",
+    "question2": "이니라",
+    "answer": "명철"
+},{
+    "book": "잠언",
+    "chapter": 15,
+    "verse": 31,
+    "question1": "생명의 경계를 듣는 귀는 \n지혜로운 자 ",
+    "question2": "있느니라",
+    "answer": "가운데"
+},{
+    "book": "잠언",
+    "chapter": 15,
+    "verse": 32,
+    "question1": "훈계 받기를 싫어하는 자는 \n자기의 영혼을 경히 여김이라\n ",
+    "question2": "을 달게 받는 자는 \n지식을 얻느니라",
+    "answer": "견책"
+},{
+    "book": "시편",
+    "chapter": 25,
+    "verse": 15,
+    "question1": "내 눈이 항상 여호와를 ",
+    "question2": "은 내 발을 그물에서 벗어나게 하실 것임이로다.",
+    "answer": "앙망함"
+},{
+    "book": "요한복음",
+    "chapter": 8,
+    "verse": 12,
+    "question1": "예수께서 또 일러 가라사대 \n나는 세상의 빛이니 나를 따르는 자는\n ",
+    "question2": "에 다니지 아니하고 \n생명의 빛을 얻으리라",
+    "answer": "어둠에"
+},{
+    "book": "시편",
+    "chapter": 119,
+    "verse": 105,
+    "question1": "주의 말씀은 내 발에 등이요 \n내 길에 ",
+    "question2": "이니이다.",
+    "answer": "빛"
 }]
+ 
