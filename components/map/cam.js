@@ -148,7 +148,7 @@ export default class CamView extends Component{
 
 	    }}>
 	    <Image
-	      source={require('./img/biblecam.png')}/>
+	      source={require('./img/targetcam.png')}/>
 	  </TouchableHighlight>
 	</Animatable.View>
 	<Image

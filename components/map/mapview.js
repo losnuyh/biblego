@@ -18,7 +18,7 @@ import MapView, { Circle, Marker } from 'react-native-maps';
 import DropdownAlert from 'react-native-dropdownalert';
 
 import UserPositionImg from './img/position.png';
-import BibleImg from './img/bible.png';
+import BibleImg from './img/target.png';
 import Replay from './img/replay.png';
 
 import CamView from './cam.js';
