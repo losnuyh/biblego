@@ -40,7 +40,23 @@ export default class Quiz extends Component{
 	    visible: !this.state.visible,
 	    index: index,
 	    phrase: this.quiz.quiz_index_list[index]
-	}); 
+	});
+	this.front = this.state.phrase.question1.length;
+	this.back = this.state.phrase.question2.length;
+	this.pre_size = (this.front+this.back) / 100;
+	if (this.pre_size<0.3){
+	    this.setState({
+		size: 0.3
+	    });
+	} else if(this.pre_size>1){
+	    this.setState({
+		size: 1
+	    });
+	} else {
+	    this.setState({
+		size: this.pre_size
+	    });
+	}
     }
 
     render(){
@@ -55,7 +71,13 @@ export default class Quiz extends Component{
 		style={styles.container}
 		>
 		<View
-		  style={styles.contents_frame}>
+		  style={
+		      [styles.contents_frame,
+		       {
+			   width: width * 4/5,
+			   height: height * this.state.size
+		       }]
+		  }>
 		  <View
 		    style={styles.title_container}>
 		    <Text
@@ -70,14 +92,17 @@ export default class Quiz extends Component{
 		    <Text
 		      style={styles.quiz_container}>
 		      {this.state.phrase.question1}
-		      </Text>
 		      <Text
-			style={styles.question_mark}>
+			style={
+			    {
+				fontWeight: 'bold',
+				color: 'indigo',
+				fontSize:  22
+			    }
+			}>
 			{this.state.answer? this.state.answer : '??'}
 		      </Text>
-		      <Text
-			style={styles.quiz_container}>
-			{this.state.phrase.question2}
+		      {this.state.phrase.question2}
 		      </Text>
 		      <TextInput
 			style={styles.input_container}
@@ -126,9 +151,6 @@ export default class Quiz extends Component{
     }
 }
 
-const frame_width = width * 4/5;
-const frame_height = height * 0.5;
-
 const styles = StyleSheet.create({
     container:{
 	flex:  1,
@@ -137,8 +159,6 @@ const styles = StyleSheet.create({
     },
     contents_frame:{
 	backgroundColor: '#FFFFFF',
-	width: frame_width,
-	height: frame_height,
 	borderTopLeftRadius: 5,
 	borderTopRightRadius: 5	
     },
@@ -160,7 +180,7 @@ const styles = StyleSheet.create({
 
     },
     phrase_container:{
-	flex: 6,
+	flex: 10,
 	backgroundColor: '#FFFFFF'
     },
     question_mark:{
