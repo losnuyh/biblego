@@ -87,9 +87,9 @@ export default class MainView extends Component{
 	      <View
 		style={styles.top}
 		>  
-	      <Text
-		style={styles.titlefont}
-		>BibleGo! </Text>
+		<Image
+		  style={styles.title}
+		  source={require('./img/biblego_text.png')}/>
 	      </View>
 	      {/** 중단 View */}
 	      <View
@@ -219,17 +219,14 @@ const styles = StyleSheet.create({
     },
     top:{
 	flex: 1,
-	backgroundColor: '#4488ff'
+	backgroundColor: '#4488ff',
+	alignItems: 'center'
     },
-    titlefont:{
-	fontFamily: 'Cartoon',
-	marginTop: 10,
-	fontSize: 50,
-	textAlign: 'center',
-	color: 'white'
+    title:{
+	marginTop: 5
     },
     mid:{
-	flex:5,
+	flex:2.5,
 	backgroundColor: '#ffffff'
     },
     mid_container:{
