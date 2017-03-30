@@ -52,3 +52,8 @@ android/app/libs
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
+
+
+__tests__/*
+android/*
+ios/*
