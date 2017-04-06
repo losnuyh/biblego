@@ -130,8 +130,8 @@ export default class MainView extends Component{
 			    textAlign:'center'
 			}
 		    }>
-		    주의 말씀은 내 발에 등불이요, 내 길에 빛이니이다. {'\n'}
-		    Your word is a lamp to my feet and a light for my path.  
+		    주의 말씀은 내 발에 등불이요,{'\n'} 내 길에 빛이니이다. {'\n'}{'\n'}
+		    Your word is a lamp to my feet {'\n'} and a light for my path.  
 		  </Text>
 		</View>
 	      </View>
@@ -222,7 +222,7 @@ const styles = StyleSheet.create({
     },
     score:{
 	textAlign: 'center',
-	fontSize: 180,
+	fontSize: 130,
 	fontFamily: 'TmonMonsori',
 	color: 'black'
     },
